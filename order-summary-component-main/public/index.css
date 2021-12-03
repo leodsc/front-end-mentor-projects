@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+	font-size: 16px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(225, 100%, 94%);
+	font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	background-color: hsl(225, 100%, 98%);
+	margin: 1.5rem;
+	margin-top: 8rem;
+	gap: 1rem;
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.illustration {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 100%;
+}
+
+.title {
+	letter-spacing: 1px;
+	font-size: 1.5rem;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	color: hsl(225, 100%, 94);
+}
+
+.plan {
+	background-color: hsl(225, 100%, 94%);
+	border-radius: 5px;
+	display: grid;
+	grid-template-rows: 25% 75%;
+	grid-template-columns: 25% 50% 45%;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5rem;
+}
+
+.plan p {
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 1rem;
+}
+
+.proceed {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 1rem 5rem;
+	box-shadow: 0 5px 0px 0px hsl(225, 100%, 98%);
+}
+
+.cancel {
+	font-weight: 700;
+}
