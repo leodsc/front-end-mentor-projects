@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const app = express();
 const path =
-	new URL("./", import.meta.url).pathname + process.env.ORDER_SUMMARY;
+	new URL("./", import.meta.url).pathname + process.env.STATS_PREVIEW;
 console.log(path);
 
 const PORT = process.env.PORT | 3000;

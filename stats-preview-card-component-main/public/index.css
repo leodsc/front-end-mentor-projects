@@ -1,0 +1,15 @@
+html {
+	--very-dark-blue: hsl(233, 47%, 7%);
+	--dark-desatured-blue: hsl(244, 38%, 16%);
+	--soft-violet: hsl(277, 64%, 61%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}

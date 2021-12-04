@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(233, 47%, 7%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Inter", sans-serif;
+}
+
+main {
+	width: 375px;
+	background-color: hsl(244, 38%, 16%);
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 3rem;
+	position: relative;
+}
+
+main .purple-overlay {
+	background: hsla(277, 64%, 21%, 0.7);
+	position: absolute;
+	width: 100%;
+	height: 250px;
+}
+
+main img {
+	width: 100%;
+	height: 250px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+main .title {
+	color: white;
+	font-weight: 700;
+	padding: 2rem 2rem 1rem 2rem;
+}
+
+main .title span {
+	color: hsl(277, 64%, 61%);
+}
+
+main .subtitle {
+	font-size: 17px;
+	color: hsla(0, 0%, 100%, 0.6);
+	line-height: 25px;
+	padding: 0 2rem;
+}
+
+main .info {
+	color: white;
+	padding: 2rem 0;
+}
+
+main .info p {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 3px;
+	color: hsla(0, 0%, 100%, 0.6);
+	margin-bottom: 1rem;
+}
+
+main .info h4 {
+	text-transform: lowercase;
+	font-size: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+	main {
+		display: grid;
+		margin-top: 25vh;
+		grid-template-rows: 250px 250px;
+		grid-template-columns: auto 600px;
+		width: 1200px;
+		padding-left: 2rem;
+		height: 425px;
+	}
+
+	main .purple-overlay {
+		width: 50%;
+		height: 100%;
+		right: 0px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	main .intro-ctn .title {
+		padding-right: 5rem;
+	}
+
+	main .intro-ctn {
+		width: 90%;
+		text-align: start;
+		padding-top: 2rem;
+	}
+
+	main .intro-ctn .subtitle {
+		width: 90%;
+	}
+
+	main .info {
+		width: 70%;
+		display: flex;
+		text-align: start;
+		gap: 3rem;
+		padding-left: 2rem;
+		padding-bottom: 0;
+	}
+
+	main img {
+		grid-column: 2/3;
+		grid-row: 1/3;
+		height: 85%;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 10px;
+	}
+}
