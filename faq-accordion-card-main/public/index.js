@@ -11,16 +11,27 @@ const questions = document.querySelectorAll(".question");
 [...questions].forEach((question, index = 0) => {
 	question.addEventListener("click", () => {
 		if (question.children.length < 3) {
+			closeOtherAnswer();
 			const para = document.createElement("p");
 			para.textContent = answers[index];
 			para.className = "answer";
 			question.children[0].style.fontWeight = 700;
 			question.children[1].style.transform = "rotate(180deg)";
 			question.appendChild(para);
-		} else {
-			question.removeChild(question.children[2]);
-			question.children[0].style.fontWeight = 400;
-			question.children[1].style.transform = "";
-		}
+		} else removeAnswer(question);
 	});
 });
+
+function removeAnswer(question) {
+	question.removeChild(question.children[2]);
+	question.children[0].style.fontWeight = 400;
+	question.children[1].style.transform = "";
+}
+
+function closeOtherAnswer() {
+	[...questions].forEach((question) => {
+		if (question.children.length === 3) {
+			removeAnswer(question);
+		}
+	});
+}
