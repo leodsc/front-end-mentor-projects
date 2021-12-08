@@ -3,9 +3,15 @@ const loadSocials = () => {
 	socialsContainer.innerHTML = `
 		<section class="socials">
 			<p>share</p>
-			<img src="images/icon-facebook.svg" alt="facebook icon">
-			<img src="images/icon-twitter.svg" alt=twitter icon"">
-			<img src="images/icon-pinterest.svg" alt="pinterest icon">
+			<a href="https://facebook.com">
+			  <img src="images/icon-facebook.svg" alt="facebook icon">
+			</a>
+			<a href="https://twitter.com">
+			  <img src="images/icon-twitter.svg" alt=twitter icon"">
+			</a>
+			<a href="https://pinterest.com">
+			  <img src="images/icon-pinterest.svg" alt="pinterest icon">
+			</a>
 		</section>
 		<div class="ballon"></div>
 	`;
