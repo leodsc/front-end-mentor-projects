@@ -86,7 +86,7 @@ main {
 	color: hsl(237, 12%, 33%);
 }
 
-.question p:hover {
+.question p:nth-child(1):hover {
 	color: hsl(14, 88%, 65%);
 }
 
