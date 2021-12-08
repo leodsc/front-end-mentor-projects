@@ -32,6 +32,7 @@ main {
 	background-color: white;
 	border-radius: 10px;
 	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
 }
 
 .person-section {
@@ -107,6 +108,39 @@ main {
 	position: relative;
 	top: -10px;
 	justify-self: right;
+	cursor: pointer;
+	z-index: 3;
+}
+
+.mobile.socials-container {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	bottom: 0px;
+}
+
+.mobile .socials {
+	background: hsl(214, 17%, 41%);
+	width: 100%;
+	display: flex;
+	padding: 2rem;
+	gap: 1rem;
+	position: relative;
+	top: -10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.mobile .socials img {
+	width: 25px;
+}
+
+.mobile.socials-container p {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 18px;
+	color: hsl(214, 17%, 71%);
+	display: inline;
 }
 
 @media screen and (min-width: 1440px) {
@@ -144,5 +178,44 @@ main {
 	.profile {
 		max-height: 50px;
 		margin-bottom: 1rem;
+	}
+
+	.socials-container {
+		position: absolute;
+		top: -100px;
+		left: 5px;
+	}
+
+	.desktop .socials {
+		position: relative;
+		background-color: hsl(217, 19%, 35%);
+		display: flex;
+		gap: 1rem;
+		left: -45%;
+		padding: 1.5rem 2rem;
+		border-radius: 10px;
+	}
+
+	.desktop .socials img {
+		width: 25px;
+	}
+
+	.desktop.socials-container p {
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 18px;
+		font-weight: 700;
+		color: hsl(214, 17%, 71%);
+		display: inline;
+	}
+
+	.ballon {
+		z-index: 2;
+		background-color: hsl(217, 19%, 35%);
+		width: 30px;
+		height: 30px;
+		position: relative;
+		transform: rotate(45deg);
+		top: -15px;
 	}
 }
