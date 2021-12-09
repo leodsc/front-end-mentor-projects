@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <style>
+      .attribution {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="introduction">
+        <div class="ctn">
+          <h1 class="title">Learn to code by watching others</h1>
+          <p class="subtitle">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <section class="signup">
+          <div class="try-it-free">
+            <span>Try it free 7 days </span>then $20/mo. thereafter
+          </div>
+          <form novalidate action="">
+            <label for="name"
+              ><input placeholder="First Name" type="" name="name"
+            /></label>
+            <label for="last-name"
+              ><input placeholder="Last Name" type="" name="last-name"
+            /></label>
+            <label for="email"
+              ><input placeholder="Email" name="email" type="email"
+            /></label>
+            <label for="password"
+              ><input placeholder="Password" name="password" type="password"
+            /></label>
+            <button class="claim-free-trial" type="button">
+              claim your free trial
+            </button>
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <a href="google.com">Terms and Services</a>
+            </p>
+          </form>
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="https:github.com/leodsc">Leonardo Carvalho</a>.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="index.js"></script>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/validator@latest/validator.min.js"
+  ></script>
+</html>
