@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin Sans:wght@300;400;500&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "Josefin Sans", sans-serif;
+	background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+		linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	padding: 2rem;
+	width: 100%;
+	max-width: 385px;
+}
+
+.logo {
+	width: 120px;
+}
+
+main {
+	max-width: 385px;
+}
+
+.logo-desktop {
+	display: none;
+}
+.welcome {
+	padding: 3rem;
+	text-align: center;
+}
+
+.welcome-img-mobile {
+	width: 100%;
+}
+
+.welcome-img-desktop {
+	display: none;
+}
+
+.first-title {
+	font-weight: 300;
+	font-size: 32px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: hsl(0, 36%, 70%);
+}
+
+.second-title {
+	font-weight: 600;
+	font-size: 32px;
+	word-break: break-word;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	color: hsl(0, 6%, 24%);
+}
+
+.welcome-text {
+	line-height: 1.5;
+	font-size: 13px;
+	margin-bottom: 2rem;
+	color: hsl(0, 36%, 70%);
+	margin-top: 1rem;
+}
+
+.email-input {
+	border: 1px solid hsl(0, 6%, 64%);
+	border-radius: 20px;
+	padding: 0.75rem 1rem;
+	font-family: "Josefin Sans", sans-serif;
+	background: transparent;
+	width: 100%;
+	font-size: 16px;
+	color: hsl(0, 36%, 70%);
+	font-weight: 400;
+}
+
+.email-label {
+	position: relative;
+}
+
+.submit-email {
+	right: 5px;
+	position: absolute;
+	background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	border: none;
+	padding: 0.65rem 1.75rem;
+	font-size: 16px;
+	border-radius: 20px;
+	box-shadow: 0 0 15px 1px hsl(0, 36%, 70%);
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+	header {
+		display: none;
+	}
+
+	.logo-desktop {
+		transform: translateY(-6rem);
+		display: block;
+	}
+
+	main {
+		display: flex;
+		flex-direction: row-reverse;
+		max-width: 1000px;
+		height: 100%;
+		align-items: center;
+	}
+
+	.welcome-img-mobile {
+		display: none;
+	}
+
+	.welcome-img-desktop {
+		display: block;
+		width: 100%;
+		margin-left: 8rem;
+	}
+
+	.welcome {
+		width: 90%;
+		text-align: left;
+	}
+
+	.first-title,
+	.second-title {
+		font-size: 48px;
+	}
+}
