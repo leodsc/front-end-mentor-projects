@@ -88,6 +88,12 @@ main {
 	font-weight: 400;
 }
 
+button:before {
+	content: "eded";
+	width: 20px;
+	height: 20px;
+}
+
 .email-label {
 	position: relative;
 }
