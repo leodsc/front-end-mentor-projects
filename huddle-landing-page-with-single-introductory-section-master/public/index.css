@@ -102,28 +102,17 @@ main {
 
 @media screen and (min-width: 1440px) {
   main {
+    width: 100%;
+    height: 100%;
     background: url("images/bg-desktop.svg") no-repeat;
     background-size: cover;
-    height: 100%;
   }
 
   .home-page {
-    transform: translateY(-50px);
+    max-width: 1200px;
     display: grid;
-    row-gap: 7rem;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    max-width: 1300px;
-    padding-top: 10rem;
-  }
-
-  .logo {
-    grid-column: 1/3;
-    width: 250px;
-  }
-
-  .illustration {
-    width: 700px;
   }
 
   .introduction {
@@ -132,28 +121,25 @@ main {
     justify-content: center;
   }
 
-  .title {
-    font-size: 2.2rem;
+  .logo {
+    width: 200px;
   }
 
-  .text {
-    font-size: 1.2rem;
+  .illustration {
+    grid-column: 1/2;
+    width: 600px;
+  }
+
+  .title {
+    font-size: 2.5rem;
   }
 
   .register {
-    width: 45%;
-    font-size: 1.5rem;
-    transform: translateX(-150px);
-    padding: 1.1rem;
-  }
-
-  .register:hover {
-    background-color: var(--soft-magenta);
-    color: white;
-    transition: all 500ms;
+    width: 30%;
+    transform: translateX(-185px);
   }
 
   .socials {
-    transform: translateY(150px) translateX(150px);
+    transform: translateY(100px) translateX(200px);
   }
 }
