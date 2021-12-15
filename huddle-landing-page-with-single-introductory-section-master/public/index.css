@@ -139,6 +139,12 @@ main {
     transform: translateX(-185px);
   }
 
+  .register:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+    transition: all 500ms;
+  }
+
   .socials {
     transform: translateY(100px) translateX(200px);
   }
