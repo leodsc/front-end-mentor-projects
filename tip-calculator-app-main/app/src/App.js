@@ -141,11 +141,10 @@ function App() {
             onClick={() => {
               dispatch({ type: "reset" });
               const inputs = document.getElementsByTagName("input");
-              const prices = document.querySelectorAll(".price");
               [...inputs].forEach((input) => {
                 input.value = "";
               });
-	      // price bug
+              [calc.tipAmount, calc.total] = [0, 0];
             }}
             className="reset"
           >
