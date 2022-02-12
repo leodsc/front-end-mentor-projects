@@ -42,7 +42,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://gallant-wescoff-462bae.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](tip-calculator-app-main)
+[Clique aqui para entrar na código do site](tip-calculator-app-main)
 
 #### Tecnologias usadas
 
@@ -62,7 +62,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://frosty-torvalds-9a81f9.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](time-tracking)
+[Clique aqui para entrar na código do site](time-tracking)
 
 #### Tecnologias usadas
 
@@ -82,7 +82,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://trusting-shockley-ecef81.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](four-card-feature-section-master)
+[Clique aqui para entrar na código do site](four-card-feature-section-master)
 
 #### Tecnologias usadas
 
@@ -101,7 +101,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://nostalgic-wright-1afa5d.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](intro-component-with-sign-up-form-master)
+[Clique aqui para entrar na código do site](intro-component-with-sign-up-form-master)
 
 #### Tecnologias usadas
 
@@ -121,7 +121,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://goofy-mirzakhani-5d458e.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](huddle-landing-page-with-single-introductory-section-master)
+[Clique aqui para entrar na código do site](huddle-landing-page-with-single-introductory-section-master)
 
 #### Tecnologias usadas
 
@@ -140,7 +140,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://hopeful-shirley-f8fd23.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](single-price-grid-component-master)
+[Clique aqui para entrar na código do site](single-price-grid-component-master)
 
 #### Tecnologias usadas
 
@@ -159,7 +159,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://practical-boyd-f9c32c.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](ping-coming-soon-page-master)
+[Clique aqui para entrar na código do site](ping-coming-soon-page-master)
 
 #### Tecnologias usadas
 
@@ -178,7 +178,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://thirsty-villani-177066.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](stats-preview-card-component-main)
+[Clique aqui para entrar na código do site](stats-preview-card-component-main)
 
 #### Tecnologias usadas
 
@@ -197,7 +197,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://boring-wescoff-8136dd.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](order-summary-component-main)
+[Clique aqui para entrar na código do site](order-summary-component-main)
 
 #### Tecnologias usadas
 
@@ -216,7 +216,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://zen-leavitt-2a4785.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](3-column-preview-card-component-main)
+[Clique aqui para entrar na código do site](3-column-preview-card-component-main)
 
 #### Tecnologias usadas
 
@@ -235,7 +235,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://quirky-wescoff-0dce3e.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](profile-card-component-main)
+[Clique aqui para entrar na código do site](profile-card-component-main)
 
 #### Tecnologias usadas
 
@@ -254,7 +254,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://sharp-lamport-9440fb.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](faq-accordion-card-main)
+[Clique aqui para entrar na código do site](faq-accordion-card-main)
 
 #### Tecnologias usadas
 
@@ -273,7 +273,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://eloquent-curran-9bf7be.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](social-proof-section-master)
+[Clique aqui para entrar na código do site](social-proof-section-master)
 
 #### Tecnologias usadas
 
@@ -292,7 +292,7 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://nifty-aryabhata-42f155.netlify.app/)
 
-[Clique aqui para entrar na pasta do site](article-preview-component-master)
+[Clique aqui para entrar na código do site](article-preview-component-master)
 
 #### Tecnologias usadas
 
