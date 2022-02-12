@@ -20,7 +20,7 @@ Projetos para o [Front End Mentor](https://frontendmentor.io), site em que você
 
 &#10625; [Stats preview](#stats-preview-page)
 
-&#10625; [Responsive component](#responsive-component)
+&#10625; [Order summary](#order-summary)
 
 &#10625; [3 column card](#3-column-card)
 
@@ -42,6 +42,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://gallant-wescoff-462bae.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](tip-calculator-app-main)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -59,6 +61,8 @@ Design
 <img width="500" height="400" src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/j1ocp59n25odoftocgpi.jpg"/>
 
 [Clique aqui para entrar no site da minha versão](https://frosty-torvalds-9a81f9.netlify.app/)
+
+[Clique aqui para entrar na pasta do site](time-tracking)
 
 #### Tecnologias usadas
 
@@ -78,6 +82,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://trusting-shockley-ecef81.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](four-card-feature-section-master)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -94,6 +100,8 @@ Design
 <img width="500" height="400" src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/ficuxtmo5kmd5bb8lmws.jpg"/>
 
 [Clique aqui para entrar no site da minha versão](https://nostalgic-wright-1afa5d.netlify.app/)
+
+[Clique aqui para entrar na pasta do site](intro-component-with-sign-up-form-master)
 
 #### Tecnologias usadas
 
@@ -113,6 +121,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://goofy-mirzakhani-5d458e.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](huddle-landing-page-with-single-introductory-section-master)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -129,6 +139,8 @@ Design
 <img width="500" height="400" src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/i6wu7n5sthrxgfpfibvx.jpg"/>
 
 [Clique aqui para entrar no site da minha versão](https://hopeful-shirley-f8fd23.netlify.app/)
+
+[Clique aqui para entrar na pasta do site](single-price-grid-component-master)
 
 #### Tecnologias usadas
 
@@ -147,6 +159,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://practical-boyd-f9c32c.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](ping-coming-soon-page-master)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -164,6 +178,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://thirsty-villani-177066.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](stats-preview-card-component-main)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -173,13 +189,15 @@ Design
 
 ---
 
-### Responsive Component
+### Order summary
 
 Design
 <br>
 <img width="500" height="400" src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/ouobx6tvyduidzio7wr7.jpg"/>
 
 [Clique aqui para entrar no site da minha versão](https://boring-wescoff-8136dd.netlify.app/)
+
+[Clique aqui para entrar na pasta do site](order-summary-component-main)
 
 #### Tecnologias usadas
 
@@ -198,6 +216,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://zen-leavitt-2a4785.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](3-column-preview-card-component-main)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -214,6 +234,8 @@ Design
 <img width="500" height="400" src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/dia0o9uigiiz4gebiqps.jpg"/>
 
 [Clique aqui para entrar no site da minha versão](https://quirky-wescoff-0dce3e.netlify.app/)
+
+[Clique aqui para entrar na pasta do site](profile-card-component-main)
 
 #### Tecnologias usadas
 
@@ -232,6 +254,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://sharp-lamport-9440fb.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](faq-accordion-card-main)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -249,6 +273,8 @@ Design
 
 [Clique aqui para entrar no site da minha versão](https://eloquent-curran-9bf7be.netlify.app/)
 
+[Clique aqui para entrar na pasta do site](social-proof-section-master)
+
 #### Tecnologias usadas
 
 <div class="languages-ctn">
@@ -265,6 +291,8 @@ Design
 <img width="500" height="400" src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/tm7zwaa7fprabjbwbemt.jpg"/>
 
 [Clique aqui para entrar no site da minha versão](https://nifty-aryabhata-42f155.netlify.app/)
+
+[Clique aqui para entrar na pasta do site](article-preview-component-master)
 
 #### Tecnologias usadas
 
